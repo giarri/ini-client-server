@@ -15,8 +15,8 @@ jobs:
         run: cmake -B build
 
       - name: Build and install the library
-        run: cmake --build build/ini_resource_lib |
-             sudo cmake --install build/ini_resource_lib
+        run: cmake --build build/ini_resource_lib --verbose &&
+             sudo cmake --install build/ini_resource_lib --verbose
 
       - name: Build the other targets
         run: cmake --build build
