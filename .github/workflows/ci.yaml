@@ -19,6 +19,6 @@ jobs:
 
       - name: Install
         run: sudo cmake --install build
-	
+
       - name: Test
       	run: ./test.sh
