@@ -1,6 +1,3 @@
-cmake_minimum_required(VERSION 4.2)
-project(ini_server)
-
 set(CMAKE_CXX_STANDARD 20)
 
 add_library(ini_resource SHARED ini_resource.cpp)
