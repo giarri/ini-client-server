@@ -1,4 +1,4 @@
 requirements.pdf
 .DS_Store
 build/*	
-.idea/*
+**/.idea/*

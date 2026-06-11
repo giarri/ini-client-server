@@ -1,0 +1,24 @@
+name: CI test on ubuntu
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -B build
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Install
+        run: sudo cmake --install build
+	
+      - name: Test
+      	run: ./test.sh
