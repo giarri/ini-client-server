@@ -21,4 +21,4 @@ jobs:
         run: sudo cmake --install build
 
       - name: Test
-      	run: ./test.sh
+        run: ./test.sh
