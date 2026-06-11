@@ -1,4 +1,4 @@
-#build and install
+# Build, install and run tests
 ```bash
 cmake -B build
 cmake --build build
