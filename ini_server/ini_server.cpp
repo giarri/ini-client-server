@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <netdb.h>
-#include <iniresource.h>
+#include <ini_resource.h>
 #include <csignal>
 
 static constexpr int PORT     = 12345;
