@@ -1,5 +1,3 @@
-set(CMAKE_CXX_STANDARD 20)
-
 add_library(ini_resource SHARED ini_resource.cpp)
 
 target_include_directories(ini_resource PUBLIC
